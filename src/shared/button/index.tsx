@@ -1,6 +1,6 @@
 
 interface IButton  {
-    className: string,
+    className?: string,
     label: string
 }
 
