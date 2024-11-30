@@ -3,15 +3,15 @@ import deliveryIcon from '../../../public/assets/landingPage/delivery.svg'
 import supportIcon from '../../../public/assets/landingPage/support.svg'
 import greenCircle from '../../../public/assets/landingPage/green-circle.png'
 import chandelier from '../../../public/assets/landingPage/chandelier.png'
+import warehouse from '../../../public/assets/landingPage/warehouse.png'
 import cupboard from '../../../public/assets/landingPage/cupboard.png'
 import bedroom from '../../../public/assets/landingPage/bedroom.png'
+import table1 from '../../../public/assets/landingPage/table-1.png'
 import girl from '../../../public/assets/landingPage/some-girl.png'
 import living from '../../../public/assets/landingPage/living.png'
 import dining from '../../../public/assets/landingPage/dining.png'
-import table from '../../../public/assets/landingPage/table.png'
-import table1 from '../../../public/assets/landingPage/table-1.png'
 import person from '../../../public/assets/landingPage/person.png'
-import warehouse from '../../../public/assets/landingPage/warehouse.png'
+import table from '../../../public/assets/landingPage/table.png'
 import Button from '../../shared/button'
 import Input from '../../shared/input'
 
@@ -95,7 +95,9 @@ const Main = () => {
                     </li>
                 </ul>
             </section>
+
             <div className='h-[1px] bg-[#D7D6D6]'></div>
+
             <section className='flex flex-col items-center gap-8 py-14'>
                 <h2 className='text-3xl font-sans font-semibold text-primaryFont'>How It Works</h2>
                 <p className='text-xl font-sans text-primaryFont'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -119,7 +121,6 @@ const Main = () => {
                         </div>
                         <h3 className='text-[24px] text-center font-sans text-primaryFont font-bold'>Ships From Warehouse</h3>
                         <p className='font-sans text-[20px] text-primaryFont leading-7 w-[380px] text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
                     </li>
                     <li className='flex flex-col gap-3 items-center'>
                         <div className='relative h-[450px]'> 
@@ -130,7 +131,6 @@ const Main = () => {
                         </div>
                         <h3 className='text-[24px] text-center font-sans text-primaryFont font-bold'>Style Your Room</h3>
                         <p className='font-sans text-[20px] text-primaryFont leading-7 w-[380px] text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
                     </li>
                 </ul>
             </section>
